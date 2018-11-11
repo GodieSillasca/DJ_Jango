@@ -17,7 +17,7 @@ class User(models.Model):
     #     self.save()
 
     def __str__(self):
-        return self.usuario
+        return self.user
 
     def password(self):
     	return self.password
